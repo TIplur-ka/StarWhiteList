@@ -1,0 +1,11 @@
+name: StarWhiteList
+version: 1.0.1
+main: necode.angelitex.starwhitelist.StarWhiteList
+api-version: 1.16
+authors: [ TIplur, AngeliTex ]
+description: Modificate standart whitelist
+website: https://vk.com/angelitex
+commands:
+  StarWhiteList:
+    aliases: [ wh, whitelist, wlist, whlist]
+    description: 'Основная команда плагина StarWhiteList'

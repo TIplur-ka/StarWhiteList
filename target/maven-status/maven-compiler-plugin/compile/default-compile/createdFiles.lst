@@ -1,0 +1,4 @@
+necode\angelitex\starwhitelist\StarWhiteList.class
+necode\angelitex\starwhitelist\Listeners\Events.class
+necode\angelitex\starwhitelist\Commands\WhiteList.class
+necode\angelitex\starwhitelist\Tools\Colors.class

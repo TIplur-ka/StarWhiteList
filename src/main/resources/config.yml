@@ -1,0 +1,30 @@
+Prefix: "&f[&6Star&aWhiteList&f]&r"
+
+#Включить/Выключить WhiteList
+WhiteListEnable: true
+
+GuestGameMode:
+  enabled: false
+  GameMode: "SURVIVAL"
+
+#Режим WhiteList
+#true - Включить UUID (Для лицензионных серверов) | False - Включить ники (Для пиратcких серверов)
+OnlineMode: true
+
+Messages:
+  WhiteListEnabled: "WhiteList включён!"
+  WhiteListDisabled: "WhiteList выключен!"
+  ReloadMessage: "Конфигурация плагина успешна перезагружена!"
+  NoneWhiteList: "%player%\n&cПростите но вас нет WhiteList!"
+  AlreadyWhiteList: "Игрок %player% уже есть в WhiteList!"
+  ListingWhiteList: "WhiteList: %whitelist_list%"
+
+  PlayerCheckTimeMessage: "У игрока %player% осталось %time%"
+  PlayerAddWhiteList: "Игрок %player% добавлен в белый список на %time%"
+  PlayerRemoveWhiteList: "Игрок %player% успешно убран из WhiteList!"
+  PlayerNoneWhiteList: "Игрока %player% нет в WhiteList!"
+
+
+  GuestMessageJoin: "Здравствуйте %guest%, вы находитесь в гостевом режиме, осмотритесь пока что тут!"
+  GuestChatDisableMessage: "Извините в гостевом режиме чат не доступен!"
+  GuestInteractMessage: "Хэй, вы находитесь в гостевом режиме, у вас нет прав взаимодействовать с сервером, не забывайте!"
