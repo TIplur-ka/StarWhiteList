@@ -17,7 +17,7 @@ public class Events implements Listener {
                 if (!pl.getCustomConfig().contains("Players.UUID." + e.getPlayer().getUniqueId())) {
                     e.getPlayer().kickPlayer(pl.NoneWhiteList);
                     return;
-                } else {
+                }
                     if (pl.getCustomConfig().getBoolean("PLayers.UUID." + e.getPlayer().getUniqueId() + ".Everything")) {
                         return;
                     }
@@ -25,7 +25,7 @@ public class Events implements Listener {
                         e.getPlayer().sendMessage(pl.PluginPrefix() + "Здравствуйте, у вас осталось времени: %code_time%");
                         return;
                     }
-                }
+                
                 return;
             }
         }
